@@ -79,21 +79,31 @@ textarea {
   background-color: #4caf50;
 }
 
-.previousButton, .nextButton {
+.previousButton {
   display: flex;
   align-items: center;
+  justify-content: right;
   padding: 0px;
 }
 
-.form {
+.nextButton {
+  display: flex;
+  align-items: center;
   padding: 0px;
 }
 
 #nextBtn{
   width: 0;
   height: 0;
-	border-style: inset;
 	border-top: 60px solid transparent;
   border-bottom: 60px solid transparent;
   border-left: 60px solid green;
+}
+
+#prevBtn{
+  width: 0;
+  height: 0;
+  border-top: 60px solid transparent;
+  border-bottom: 60px solid transparent;
+  border-right: 60px solid yellow;
 }
